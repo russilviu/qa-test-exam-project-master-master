@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Tests" verbose="1">
+    <test name="Sanity" preserve-order="false">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.web.testProject.tests.*"/>
+        </packages>
+    </test>
+</suite>
